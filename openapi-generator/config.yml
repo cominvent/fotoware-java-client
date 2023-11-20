@@ -1,0 +1,24 @@
+groupId: com.cominvent.fotoware
+artifactId: fotoware-java-client
+artifactVersion: 0.1.0
+snapshotVersion: true
+invokerPackage: com.cominvent.fotoware.client
+apiPackage: com.cominvent.fotoware.api
+modelPackage: com.cominvent.fotoware.model
+artifactDescription: Java API for Fotoware
+artifactUrl: https://github.com/cominvent/fotoware-java-client/
+library: native
+licenseName: The Apache License, Version 2.0
+licenseUrl: https://opensource.org/license/apache-2-0/
+scmConnection: scm:git:git@github.com:cominvent/fotoware-java-client.git
+scmDeveloperConnection: scm:git:git@github.com:cominvent/fotoware-java-client.git
+scmUrl: https://github.com/cominvent/fotoware-java-client/
+
+# Beta
+supportStreaming: true
+useJakartaEe: true
+
+developerEmail: jh@cominvent.com
+developerName: Jan Høydahl
+developerOrganization: Cominvent AS
+developerOrganizationUrl: http://cominvent.com
