@@ -40,7 +40,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   TaxonomyInfo.JSON_PROPERTY_HREF,
   TaxonomyInfo.JSON_PROPERTY_TAXONOMY_HREF
 })
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-11-20T14:14:21.267957+01:00[Europe/Oslo]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class TaxonomyInfo {
   public static final String JSON_PROPERTY_NAME = "name";
   private String name;

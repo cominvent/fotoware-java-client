@@ -97,7 +97,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   CollectionInfo.JSON_PROPERTY_TYPE,
   CollectionInfo.JSON_PROPERTY_UPLOAD_HREF
 })
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-11-20T14:14:21.267957+01:00[Europe/Oslo]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class CollectionInfo {
   public static final String JSON_PROPERTY_ANCESTORS = "ancestors";
   private List<AssetAncestorsInner> ancestors;

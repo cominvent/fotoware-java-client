@@ -9,7 +9,6 @@
 |------------ | ------------- | ------------- | -------------|
 |**status** | **String** |  |  [optional] |
 |**maxInterval** | **Integer** |  |  [optional] |
-|**maxInterval** | **Integer** |  |  [optional] |
 |**location** | **String** |  |  [optional] |
 
 

@@ -36,7 +36,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   OrderListDataInnerOrderItemsInnerRendition.JSON_PROPERTY_HREF,
   OrderListDataInnerOrderItemsInnerRendition.JSON_PROPERTY_NAME
 })
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-11-20T14:14:21.267957+01:00[Europe/Oslo]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class OrderListDataInnerOrderItemsInnerRendition {
   public static final String JSON_PROPERTY_DOWNLOAD = "download";
   private String download;

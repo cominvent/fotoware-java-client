@@ -40,7 +40,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   MetadataViewBuiltinFieldsTitleField.JSON_PROPERTY_DATA_TYPE,
   MetadataViewBuiltinFieldsTitleField.JSON_PROPERTY_VALIDATION
 })
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-11-20T14:14:21.267957+01:00[Europe/Oslo]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class MetadataViewBuiltinFieldsTitleField {
   public static final String JSON_PROPERTY_ID = "id";
   private Integer id;

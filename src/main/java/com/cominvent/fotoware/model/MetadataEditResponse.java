@@ -33,15 +33,11 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
  */
 @JsonPropertyOrder({
   MetadataEditResponse.JSON_PROPERTY_MAX_INTERVAL,
-  MetadataEditResponse.JSON_PROPERTY_MAX_INTERVAL,
   MetadataEditResponse.JSON_PROPERTY_LOCATION,
   MetadataEditResponse.JSON_PROPERTY_STATUS
 })
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-11-20T14:14:21.267957+01:00[Europe/Oslo]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class MetadataEditResponse {
-  public static final String JSON_PROPERTY_MAX_INTERVAL = "max-interval";
-  private Integer maxInterval;
-
   public static final String JSON_PROPERTY_MAX_INTERVAL = "maxInterval";
   private Integer maxInterval;
 
@@ -53,31 +49,6 @@ public class MetadataEditResponse {
 
   public MetadataEditResponse() { 
   }
-
-  public MetadataEditResponse maxInterval(Integer maxInterval) {
-    this.maxInterval = maxInterval;
-    return this;
-  }
-
-   /**
-   * Get maxInterval
-   * @return maxInterval
-  **/
-  @jakarta.annotation.Nullable
-  @JsonProperty(JSON_PROPERTY_MAX_INTERVAL)
-  @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
-
-  public Integer getMaxInterval() {
-    return maxInterval;
-  }
-
-
-  @JsonProperty(JSON_PROPERTY_MAX_INTERVAL)
-  @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
-  public void setMaxInterval(Integer maxInterval) {
-    this.maxInterval = maxInterval;
-  }
-
 
   public MetadataEditResponse maxInterval(Integer maxInterval) {
     this.maxInterval = maxInterval;
@@ -167,21 +138,19 @@ public class MetadataEditResponse {
     }
     MetadataEditResponse metadataEditResponse = (MetadataEditResponse) o;
     return Objects.equals(this.maxInterval, metadataEditResponse.maxInterval) &&
-        Objects.equals(this.maxInterval, metadataEditResponse.maxInterval) &&
         Objects.equals(this.location, metadataEditResponse.location) &&
         Objects.equals(this.status, metadataEditResponse.status);
   }
 
   @Override
   public int hashCode() {
-    return Objects.hash(maxInterval, maxInterval, location, status);
+    return Objects.hash(maxInterval, location, status);
   }
 
   @Override
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class MetadataEditResponse {\n");
-    sb.append("    maxInterval: ").append(toIndentedString(maxInterval)).append("\n");
     sb.append("    maxInterval: ").append(toIndentedString(maxInterval)).append("\n");
     sb.append("    location: ").append(toIndentedString(location)).append("\n");
     sb.append("    status: ").append(toIndentedString(status)).append("\n");
@@ -231,11 +200,6 @@ public class MetadataEditResponse {
     }
 
     StringJoiner joiner = new StringJoiner("&");
-
-    // add `max-interval` to the URL query string
-    if (getMaxInterval() != null) {
-      joiner.add(String.format("%smax-interval%s=%s", prefix, suffix, URLEncoder.encode(String.valueOf(getMaxInterval()), StandardCharsets.UTF_8).replaceAll("\\+", "%20")));
-    }
 
     // add `maxInterval` to the URL query string
     if (getMaxInterval() != null) {

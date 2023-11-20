@@ -36,7 +36,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   UploadStatusTask.JSON_PROPERTY_MODIFIED,
   UploadStatusTask.JSON_PROPERTY_TYPE
 })
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-11-20T14:14:21.267957+01:00[Europe/Oslo]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class UploadStatusTask {
   public static final String JSON_PROPERTY_CREATED = "created";
   private String created;

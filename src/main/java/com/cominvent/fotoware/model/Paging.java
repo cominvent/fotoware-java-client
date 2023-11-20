@@ -37,7 +37,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   Paging.JSON_PROPERTY_FIRST,
   Paging.JSON_PROPERTY_LAST
 })
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-11-20T14:14:21.267957+01:00[Europe/Oslo]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class Paging {
   public static final String JSON_PROPERTY_PREV = "prev";
   private String prev;

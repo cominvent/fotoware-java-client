@@ -79,7 +79,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   Asset.JSON_PROPERTY_UNIQUEID,
   Asset.JSON_PROPERTY_WORKFLOWCOUNT
 })
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-11-20T14:14:21.267957+01:00[Europe/Oslo]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class Asset {
   public static final String JSON_PROPERTY_ARCHIVE_H_R_E_F = "archiveHREF";
   private String archiveHREF;

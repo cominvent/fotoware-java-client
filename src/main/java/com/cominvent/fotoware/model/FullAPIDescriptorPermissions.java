@@ -52,7 +52,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   FullAPIDescriptorPermissions.JSON_PROPERTY_ALLOW_SHARE_BOOKMARK,
   FullAPIDescriptorPermissions.JSON_PROPERTY_HAS_MANAGE_WORKFLOWS_PERMISSION
 })
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-11-20T14:14:21.267957+01:00[Europe/Oslo]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class FullAPIDescriptorPermissions {
   public static final String JSON_PROPERTY_DELEGATE_DOWNLOAD = "delegateDownload";
   private Boolean delegateDownload;

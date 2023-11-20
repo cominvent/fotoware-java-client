@@ -39,7 +39,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   FullAPIDescriptorAppearance.JSON_PROPERTY_HOMEPAGE_IMAGE,
   FullAPIDescriptorAppearance.JSON_PROPERTY_FAVICON
 })
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-11-20T14:14:21.267957+01:00[Europe/Oslo]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class FullAPIDescriptorAppearance {
   public static final String JSON_PROPERTY_LOGIN_LOGO = "loginLogo";
   private String loginLogo;

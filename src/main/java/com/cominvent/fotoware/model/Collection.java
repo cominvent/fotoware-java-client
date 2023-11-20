@@ -99,7 +99,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   Collection.JSON_PROPERTY_TAXONOMIES,
   Collection.JSON_PROPERTY_UPLOAD_HREF
 })
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-11-20T14:14:21.267957+01:00[Europe/Oslo]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class Collection {
   public static final String JSON_PROPERTY_ALT_ORDERS = "alt_orders";
   private List<CollectionAltOrdersInner> altOrders;

@@ -36,7 +36,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   OrderUpdateOrderItemsInner.JSON_PROPERTY_RENDITION,
   OrderUpdateOrderItemsInner.JSON_PROPERTY_EXPIRES
 })
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-11-20T14:14:21.267957+01:00[Europe/Oslo]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class OrderUpdateOrderItemsInner {
   public static final String JSON_PROPERTY_ADMIN_COMMENT = "adminComment";
   private String adminComment;

@@ -34,16 +34,12 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 @JsonPropertyOrder({
   MoveResponse.JSON_PROPERTY_STATUS,
   MoveResponse.JSON_PROPERTY_MAX_INTERVAL,
-  MoveResponse.JSON_PROPERTY_MAX_INTERVAL,
   MoveResponse.JSON_PROPERTY_LOCATION
 })
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-11-20T14:14:21.267957+01:00[Europe/Oslo]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class MoveResponse {
   public static final String JSON_PROPERTY_STATUS = "status";
   private String status;
-
-  public static final String JSON_PROPERTY_MAX_INTERVAL = "max-interval";
-  private Integer maxInterval;
 
   public static final String JSON_PROPERTY_MAX_INTERVAL = "maxInterval";
   private Integer maxInterval;
@@ -76,31 +72,6 @@ public class MoveResponse {
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
   public void setStatus(String status) {
     this.status = status;
-  }
-
-
-  public MoveResponse maxInterval(Integer maxInterval) {
-    this.maxInterval = maxInterval;
-    return this;
-  }
-
-   /**
-   * Get maxInterval
-   * @return maxInterval
-  **/
-  @jakarta.annotation.Nullable
-  @JsonProperty(JSON_PROPERTY_MAX_INTERVAL)
-  @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
-
-  public Integer getMaxInterval() {
-    return maxInterval;
-  }
-
-
-  @JsonProperty(JSON_PROPERTY_MAX_INTERVAL)
-  @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
-  public void setMaxInterval(Integer maxInterval) {
-    this.maxInterval = maxInterval;
   }
 
 
@@ -168,13 +139,12 @@ public class MoveResponse {
     MoveResponse moveResponse = (MoveResponse) o;
     return Objects.equals(this.status, moveResponse.status) &&
         Objects.equals(this.maxInterval, moveResponse.maxInterval) &&
-        Objects.equals(this.maxInterval, moveResponse.maxInterval) &&
         Objects.equals(this.location, moveResponse.location);
   }
 
   @Override
   public int hashCode() {
-    return Objects.hash(status, maxInterval, maxInterval, location);
+    return Objects.hash(status, maxInterval, location);
   }
 
   @Override
@@ -182,7 +152,6 @@ public class MoveResponse {
     StringBuilder sb = new StringBuilder();
     sb.append("class MoveResponse {\n");
     sb.append("    status: ").append(toIndentedString(status)).append("\n");
-    sb.append("    maxInterval: ").append(toIndentedString(maxInterval)).append("\n");
     sb.append("    maxInterval: ").append(toIndentedString(maxInterval)).append("\n");
     sb.append("    location: ").append(toIndentedString(location)).append("\n");
     sb.append("}");
@@ -235,11 +204,6 @@ public class MoveResponse {
     // add `status` to the URL query string
     if (getStatus() != null) {
       joiner.add(String.format("%sstatus%s=%s", prefix, suffix, URLEncoder.encode(String.valueOf(getStatus()), StandardCharsets.UTF_8).replaceAll("\\+", "%20")));
-    }
-
-    // add `max-interval` to the URL query string
-    if (getMaxInterval() != null) {
-      joiner.add(String.format("%smax-interval%s=%s", prefix, suffix, URLEncoder.encode(String.valueOf(getMaxInterval()), StandardCharsets.UTF_8).replaceAll("\\+", "%20")));
     }
 
     // add `maxInterval` to the URL query string

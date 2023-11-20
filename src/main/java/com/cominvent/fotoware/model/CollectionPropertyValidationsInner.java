@@ -37,7 +37,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   CollectionPropertyValidationsInner.JSON_PROPERTY_REGEX,
   CollectionPropertyValidationsInner.JSON_PROPERTY_NAME
 })
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-11-20T14:14:21.267957+01:00[Europe/Oslo]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class CollectionPropertyValidationsInner {
   public static final String JSON_PROPERTY_MIN = "min";
   private Integer min;

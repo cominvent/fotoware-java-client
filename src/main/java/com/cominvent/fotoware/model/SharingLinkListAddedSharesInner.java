@@ -38,7 +38,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   SharingLinkListAddedSharesInner.JSON_PROPERTY_ACL,
   SharingLinkListAddedSharesInner.JSON_PROPERTY_SHARED_H_R_E_F
 })
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-11-20T14:14:21.267957+01:00[Europe/Oslo]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class SharingLinkListAddedSharesInner {
   public static final String JSON_PROPERTY_TYPE = "type";
   private String type;

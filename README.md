@@ -4,8 +4,6 @@ FotoWare API
 
 - API version: 1.0.0
 
-- Build date: 2023-11-20T14:14:21.267957+01:00[Europe/Oslo]
-
 This reference documents the available endpoints for FotoWare's API.
 <br/>
 Click the Authorize button at the top of the page to try the API with your own FotoWare as a Service tenant.<br/>

@@ -36,7 +36,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   OrderOwner.JSON_PROPERTY_USERNAME,
   OrderOwner.JSON_PROPERTY_ADDRESS
 })
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-11-20T14:14:21.267957+01:00[Europe/Oslo]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class OrderOwner {
   public static final String JSON_PROPERTY_USERNAME = "username";
   private String username;

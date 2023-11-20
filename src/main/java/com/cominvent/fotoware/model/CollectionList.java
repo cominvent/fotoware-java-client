@@ -40,7 +40,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   CollectionList.JSON_PROPERTY_DATA,
   CollectionList.JSON_PROPERTY_PAGING
 })
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-11-20T14:14:21.267957+01:00[Europe/Oslo]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class CollectionList {
   public static final String JSON_PROPERTY_SEARCH_U_R_L = "searchURL";
   private String searchURL;

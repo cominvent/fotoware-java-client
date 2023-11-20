@@ -4275,8 +4275,6 @@ components:
       properties:
         status:
           type: string
-        max-interval:
-          type: integer
         maxInterval:
           type: integer
         location:
@@ -4299,8 +4297,6 @@ components:
           type: string
         status:
           type: string
-        max-interval:
-          type: integer
         maxInterval:
           type: integer
       type: object
@@ -4317,8 +4313,6 @@ components:
           type: string
         status:
           type: string
-        max-interval:
-          type: integer
         maxInterval:
           type: integer
       type: object
@@ -4335,8 +4329,6 @@ components:
           type: string
         status:
           type: string
-        max-interval:
-          type: integer
         maxInterval:
           type: integer
       type: object
@@ -4353,8 +4345,6 @@ components:
       properties:
         status:
           type: string
-        max-interval:
-          type: integer
         maxInterval:
           type: integer
         location:
@@ -4373,8 +4363,6 @@ components:
       type: object
     MetadataEditResponse:
       properties:
-        max-interval:
-          type: integer
         maxInterval:
           type: integer
         location:
@@ -4397,8 +4385,6 @@ components:
       properties:
         status:
           type: string
-        max-interval:
-          type: integer
         maxInterval:
           type: integer
         location:
@@ -4417,8 +4403,6 @@ components:
       properties:
         status:
           type: string
-        max-interval:
-          type: integer
         maxInterval:
           type: integer
         location:
@@ -4437,8 +4421,6 @@ components:
       properties:
         status:
           type: string
-        max-interval:
-          type: integer
         maxInterval:
           type: integer
         location:

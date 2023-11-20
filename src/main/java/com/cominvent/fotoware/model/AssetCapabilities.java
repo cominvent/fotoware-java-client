@@ -36,7 +36,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   AssetCapabilities.JSON_PROPERTY_CROP,
   AssetCapabilities.JSON_PROPERTY_PRINT
 })
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-11-20T14:14:21.267957+01:00[Europe/Oslo]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class AssetCapabilities {
   public static final String JSON_PROPERTY_PRINT_WITH_ANNOTATIONS = "printWithAnnotations";
   private Boolean printWithAnnotations;

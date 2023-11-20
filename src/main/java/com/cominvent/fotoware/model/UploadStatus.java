@@ -37,7 +37,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   UploadStatus.JSON_PROPERTY_JOB,
   UploadStatus.JSON_PROPERTY_TASK
 })
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-11-20T14:14:21.267957+01:00[Europe/Oslo]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class UploadStatus {
   public static final String JSON_PROPERTY_JOB = "job";
   private UploadStatusJob job;

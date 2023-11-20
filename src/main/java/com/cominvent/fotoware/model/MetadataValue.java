@@ -40,7 +40,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   MetadataValue.JSON_PROPERTY_N,
   MetadataValue.JSON_PROPERTY_DT
 })
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-11-20T14:14:21.267957+01:00[Europe/Oslo]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class MetadataValue {
   public static final String JSON_PROPERTY_S = "s";
   private JsonNullable<String> s = JsonNullable.<String>undefined();

@@ -41,7 +41,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   AlbumPermissions.JSON_PROPERTY_SHOW_ON_HOMEPAGE,
   AlbumPermissions.JSON_PROPERTY_COMMENT
 })
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-11-20T14:14:21.267957+01:00[Europe/Oslo]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class AlbumPermissions {
   public static final String JSON_PROPERTY_CREATE = "create";
   private Boolean create;

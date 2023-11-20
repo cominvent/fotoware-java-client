@@ -34,19 +34,15 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 @JsonPropertyOrder({
   DeleteResponse.JSON_PROPERTY_LOCATION,
   DeleteResponse.JSON_PROPERTY_STATUS,
-  DeleteResponse.JSON_PROPERTY_MAX_INTERVAL,
   DeleteResponse.JSON_PROPERTY_MAX_INTERVAL
 })
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-11-20T14:14:21.267957+01:00[Europe/Oslo]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class DeleteResponse {
   public static final String JSON_PROPERTY_LOCATION = "location";
   private String location;
 
   public static final String JSON_PROPERTY_STATUS = "status";
   private String status;
-
-  public static final String JSON_PROPERTY_MAX_INTERVAL = "max-interval";
-  private Integer maxInterval;
 
   public static final String JSON_PROPERTY_MAX_INTERVAL = "maxInterval";
   private Integer maxInterval;
@@ -129,31 +125,6 @@ public class DeleteResponse {
   }
 
 
-  public DeleteResponse maxInterval(Integer maxInterval) {
-    this.maxInterval = maxInterval;
-    return this;
-  }
-
-   /**
-   * Get maxInterval
-   * @return maxInterval
-  **/
-  @jakarta.annotation.Nullable
-  @JsonProperty(JSON_PROPERTY_MAX_INTERVAL)
-  @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
-
-  public Integer getMaxInterval() {
-    return maxInterval;
-  }
-
-
-  @JsonProperty(JSON_PROPERTY_MAX_INTERVAL)
-  @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
-  public void setMaxInterval(Integer maxInterval) {
-    this.maxInterval = maxInterval;
-  }
-
-
   /**
    * Return true if this DeleteResponse object is equal to o.
    */
@@ -168,13 +139,12 @@ public class DeleteResponse {
     DeleteResponse deleteResponse = (DeleteResponse) o;
     return Objects.equals(this.location, deleteResponse.location) &&
         Objects.equals(this.status, deleteResponse.status) &&
-        Objects.equals(this.maxInterval, deleteResponse.maxInterval) &&
         Objects.equals(this.maxInterval, deleteResponse.maxInterval);
   }
 
   @Override
   public int hashCode() {
-    return Objects.hash(location, status, maxInterval, maxInterval);
+    return Objects.hash(location, status, maxInterval);
   }
 
   @Override
@@ -183,7 +153,6 @@ public class DeleteResponse {
     sb.append("class DeleteResponse {\n");
     sb.append("    location: ").append(toIndentedString(location)).append("\n");
     sb.append("    status: ").append(toIndentedString(status)).append("\n");
-    sb.append("    maxInterval: ").append(toIndentedString(maxInterval)).append("\n");
     sb.append("    maxInterval: ").append(toIndentedString(maxInterval)).append("\n");
     sb.append("}");
     return sb.toString();
@@ -240,11 +209,6 @@ public class DeleteResponse {
     // add `status` to the URL query string
     if (getStatus() != null) {
       joiner.add(String.format("%sstatus%s=%s", prefix, suffix, URLEncoder.encode(String.valueOf(getStatus()), StandardCharsets.UTF_8).replaceAll("\\+", "%20")));
-    }
-
-    // add `max-interval` to the URL query string
-    if (getMaxInterval() != null) {
-      joiner.add(String.format("%smax-interval%s=%s", prefix, suffix, URLEncoder.encode(String.valueOf(getMaxInterval()), StandardCharsets.UTF_8).replaceAll("\\+", "%20")));
     }
 
     // add `maxInterval` to the URL query string

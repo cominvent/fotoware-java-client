@@ -13,6 +13,7 @@ licenseUrl: https://opensource.org/license/apache-2-0/
 scmConnection: scm:git:git@github.com:cominvent/fotoware-java-client.git
 scmDeveloperConnection: scm:git:git@github.com:cominvent/fotoware-java-client.git
 scmUrl: https://github.com/cominvent/fotoware-java-client/
+hideGenerationTimestamp: true
 
 # Beta
 supportStreaming: true

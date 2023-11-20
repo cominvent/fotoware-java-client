@@ -38,7 +38,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   BatchUploadStatus.JSON_PROPERTY_RESULT,
   BatchUploadStatus.JSON_PROPERTY_ERROR
 })
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-11-20T14:14:21.267957+01:00[Europe/Oslo]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class BatchUploadStatus {
   public static final String JSON_PROPERTY_STATUS = "status";
   private String status;

@@ -34,7 +34,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 @JsonPropertyOrder({
   FullAPIDescriptorWidgetsFwdtViews.JSON_PROPERTY_INSTALL
 })
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-11-20T14:14:21.267957+01:00[Europe/Oslo]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class FullAPIDescriptorWidgetsFwdtViews {
   public static final String JSON_PROPERTY_INSTALL = "install";
   private String install;

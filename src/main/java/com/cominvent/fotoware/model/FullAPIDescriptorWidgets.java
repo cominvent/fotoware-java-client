@@ -36,7 +36,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   FullAPIDescriptorWidgets.JSON_PROPERTY_SELECTION,
   FullAPIDescriptorWidgets.JSON_PROPERTY_FWDT
 })
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-11-20T14:14:21.267957+01:00[Europe/Oslo]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class FullAPIDescriptorWidgets {
   public static final String JSON_PROPERTY_SELECTION = "selection";
   private String selection;

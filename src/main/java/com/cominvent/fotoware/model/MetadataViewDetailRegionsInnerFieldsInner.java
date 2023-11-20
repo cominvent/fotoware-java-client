@@ -38,7 +38,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   MetadataViewDetailRegionsInnerFieldsInner.JSON_PROPERTY_IS_WRITABLE,
   MetadataViewDetailRegionsInnerFieldsInner.JSON_PROPERTY_REQUIRED
 })
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-11-20T14:14:21.267957+01:00[Europe/Oslo]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class MetadataViewDetailRegionsInnerFieldsInner {
   public static final String JSON_PROPERTY_FIELD = "field";
   private MetadataViewDetailRegionsInnerFieldsInnerField field;

@@ -41,7 +41,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   OrderUpdate.JSON_PROPERTY_ADMIN_COMMENT,
   OrderUpdate.JSON_PROPERTY_ORDER_DATA
 })
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-11-20T14:14:21.267957+01:00[Europe/Oslo]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class OrderUpdate {
   public static final String JSON_PROPERTY_ORDER_ITEMS = "orderItems";
   private List<OrderUpdateOrderItemsInner> orderItems;

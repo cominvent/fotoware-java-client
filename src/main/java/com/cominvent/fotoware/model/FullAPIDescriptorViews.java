@@ -48,7 +48,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   FullAPIDescriptorViews.JSON_PROPERTY_SIGN_UP_ADMIN,
   FullAPIDescriptorViews.JSON_PROPERTY_MANAGE_CONSENT_FORMS
 })
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-11-20T14:14:21.267957+01:00[Europe/Oslo]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class FullAPIDescriptorViews {
   public static final String JSON_PROPERTY_MANAGE_INVITATIONS = "manageInvitations";
   private String manageInvitations;

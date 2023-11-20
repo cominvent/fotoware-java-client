@@ -40,7 +40,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   MetadataViewBuiltinFieldsRatingField.JSON_PROPERTY_LABEL,
   MetadataViewBuiltinFieldsRatingField.JSON_PROPERTY_MULTI_INSTANCE
 })
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-11-20T14:14:21.267957+01:00[Europe/Oslo]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class MetadataViewBuiltinFieldsRatingField {
   public static final String JSON_PROPERTY_MAX_SIZE = "max-size";
   private Integer maxSize;

@@ -61,12 +61,4 @@ public class DuplicateResponseTest {
         // TODO: test maxInterval
     }
 
-    /**
-     * Test the property 'maxInterval'
-     */
-    @Test
-    public void maxIntervalTest() {
-        // TODO: test maxInterval
-    }
-
 }

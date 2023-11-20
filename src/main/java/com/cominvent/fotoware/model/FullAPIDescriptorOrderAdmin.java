@@ -39,7 +39,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   FullAPIDescriptorOrderAdmin.JSON_PROPERTY_REJECTED,
   FullAPIDescriptorOrderAdmin.JSON_PROPERTY_VIEWS
 })
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-11-20T14:14:21.267957+01:00[Europe/Oslo]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class FullAPIDescriptorOrderAdmin {
   public static final String JSON_PROPERTY_HISTORY = "history";
   private String history;

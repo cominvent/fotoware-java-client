@@ -54,14 +54,6 @@ public class RotateResponseTest {
     }
 
     /**
-     * Test the property 'maxInterval'
-     */
-    @Test
-    public void maxIntervalTest() {
-        // TODO: test maxInterval
-    }
-
-    /**
      * Test the property 'location'
      */
     @Test

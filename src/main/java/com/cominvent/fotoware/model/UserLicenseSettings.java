@@ -35,7 +35,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   UserLicenseSettings.JSON_PROPERTY_LEVEL,
   UserLicenseSettings.JSON_PROPERTY_MODE
 })
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-11-20T14:14:21.267957+01:00[Europe/Oslo]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class UserLicenseSettings {
   /**
    * License level

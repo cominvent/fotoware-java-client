@@ -40,7 +40,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   MetadataViewBuiltinFieldsNotesField.JSON_PROPERTY_ID,
   MetadataViewBuiltinFieldsNotesField.JSON_PROPERTY_LABEL
 })
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-11-20T14:14:21.267957+01:00[Europe/Oslo]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class MetadataViewBuiltinFieldsNotesField {
   public static final String JSON_PROPERTY_MULTI_INSTANCE = "multi-instance";
   private Boolean multiInstance;

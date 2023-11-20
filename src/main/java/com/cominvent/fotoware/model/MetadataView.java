@@ -45,7 +45,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   MetadataView.JSON_PROPERTY_HREF,
   MetadataView.JSON_PROPERTY_ID
 })
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-11-20T14:14:21.267957+01:00[Europe/Oslo]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class MetadataView {
   public static final String JSON_PROPERTY_BUILTIN_FIELDS = "builtinFields";
   private MetadataViewBuiltinFields builtinFields;

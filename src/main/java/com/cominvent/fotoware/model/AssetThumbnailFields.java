@@ -37,7 +37,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   AssetThumbnailFields.JSON_PROPERTY_FIRST_LINE,
   AssetThumbnailFields.JSON_PROPERTY_SECOND_LINE
 })
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-11-20T14:14:21.267957+01:00[Europe/Oslo]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class AssetThumbnailFields {
   public static final String JSON_PROPERTY_LABEL = "label";
   private AssetThumbnailFieldsLabel label;

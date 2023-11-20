@@ -39,7 +39,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   QuickRenditionsInner.JSON_PROPERTY_WIDTH,
   QuickRenditionsInner.JSON_PROPERTY_HEIGHT
 })
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-11-20T14:14:21.267957+01:00[Europe/Oslo]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class QuickRenditionsInner {
   public static final String JSON_PROPERTY_HREF = "href";
   private String href;

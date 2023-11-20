@@ -36,7 +36,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   OrderSubmissionInfo.JSON_PROPERTY_ORDER_REFERENCE,
   OrderSubmissionInfo.JSON_PROPERTY_CHECKOUT_PAGE_LOCATION
 })
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-11-20T14:14:21.267957+01:00[Europe/Oslo]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class OrderSubmissionInfo {
   public static final String JSON_PROPERTY_ORDER_LOCATION = "orderLocation";
   private String orderLocation;

@@ -40,7 +40,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   SharingShowcase.JSON_PROPERTY_SHARED_H_R_E_F,
   SharingShowcase.JSON_PROPERTY_TYPE
 })
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-11-20T14:14:21.267957+01:00[Europe/Oslo]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class SharingShowcase {
   public static final String JSON_PROPERTY_FROM = "from";
   private String from;

@@ -35,7 +35,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   MetadataEditRequestJobMetadataInner.JSON_PROPERTY_FIELD,
   MetadataEditRequestJobMetadataInner.JSON_PROPERTY_VALUE
 })
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-11-20T14:14:21.267957+01:00[Europe/Oslo]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class MetadataEditRequestJobMetadataInner {
   public static final String JSON_PROPERTY_FIELD = "field";
   private Integer field;

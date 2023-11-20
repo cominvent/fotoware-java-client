@@ -39,7 +39,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   OrderList.JSON_PROPERTY_PAGING,
   OrderList.JSON_PROPERTY_DATA
 })
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-11-20T14:14:21.267957+01:00[Europe/Oslo]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class OrderList {
   public static final String JSON_PROPERTY_PAGING = "paging";
   private OrderListPaging paging;

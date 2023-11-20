@@ -41,7 +41,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   MetadataViewDetailRegionsInnerFieldsInnerField.JSON_PROPERTY_MAX_SIZE,
   MetadataViewDetailRegionsInnerFieldsInnerField.JSON_PROPERTY_MULTILINE
 })
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-11-20T14:14:21.267957+01:00[Europe/Oslo]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class MetadataViewDetailRegionsInnerFieldsInnerField {
   public static final String JSON_PROPERTY_DATA_TYPE = "data-type";
   private String dataType;

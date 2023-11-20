@@ -59,7 +59,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   GroupPermissions.JSON_PROPERTY_MANAGE_ACTIVITY_EXPORTS,
   GroupPermissions.JSON_PROPERTY_MANAGE_ACTIVITY_LOGGING
 })
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-11-20T14:14:21.267957+01:00[Europe/Oslo]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class GroupPermissions {
   public static final String JSON_PROPERTY_ALBUMS = "albums";
   private AlbumPermissions albums;

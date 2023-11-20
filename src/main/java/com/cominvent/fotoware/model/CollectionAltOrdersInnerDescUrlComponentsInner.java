@@ -35,7 +35,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   CollectionAltOrdersInnerDescUrlComponentsInner.JSON_PROPERTY_KEY,
   CollectionAltOrdersInnerDescUrlComponentsInner.JSON_PROPERTY_VALUE
 })
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-11-20T14:14:21.267957+01:00[Europe/Oslo]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class CollectionAltOrdersInnerDescUrlComponentsInner {
   public static final String JSON_PROPERTY_KEY = "key";
   private String key;
