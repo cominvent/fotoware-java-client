@@ -3929,8 +3929,6 @@ components:
       properties:
         status:
           type: string
-        max-interval:
-          type: integer
         maxInterval:
           type: integer
         location:
@@ -3955,8 +3953,6 @@ components:
           type: string
         status:
           type: string
-        max-interval:
-          type: integer
         maxInterval:
           type: integer
     DeleteRequest:
@@ -3976,8 +3972,6 @@ components:
           type: string
         status:
           type: string
-        max-interval:
-          type: integer
         maxInterval:
           type: integer
     DuplicateRequest:
@@ -3997,8 +3991,6 @@ components:
           type: string
         status:
           type: string
-        max-interval:
-          type: integer
         maxInterval:
           type: integer
     MarkerRequest:
@@ -4018,8 +4010,6 @@ components:
       properties:
         status:
           type: string
-        max-interval:
-          type: integer
         maxInterval:
           type: integer
         location:
@@ -4046,8 +4036,6 @@ components:
     MetadataEditResponse:
       type: object
       properties:
-        max-interval:
-          type: integer
         maxInterval:
           type: integer
         location:
@@ -4072,8 +4060,6 @@ components:
       properties:
         status:
           type: string
-        max-interval:
-          type: integer
         maxInterval:
           type: integer
         location:
@@ -4095,8 +4081,6 @@ components:
       properties:
         status:
           type: string
-        max-interval:
-          type: integer
         maxInterval:
           type: integer
         location:
@@ -4118,8 +4102,6 @@ components:
       properties:
         status:
           type: string
-        max-interval:
-          type: integer
         maxInterval:
           type: integer
         location:
